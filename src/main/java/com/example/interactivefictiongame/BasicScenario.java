@@ -16,8 +16,6 @@ public class BasicScenario implements ScenarioStrategy {
         System.out.println(description);
         if (!subScenarios.isEmpty()) {
             subScenarios.get(0).play();
-            System.out.println("fxsefcds");
-            System.out.println("fxsefcds");
         }
     }
 }
